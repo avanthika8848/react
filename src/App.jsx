@@ -39,7 +39,8 @@
 
 
 import React, { Component } from 'react'
-import Unmounting from './Class-components/Life-cycle-method/Unmounting'
+import ButtonUnMount from './Class-components/Life-cycle-method/ButtonUnmount'
+// import Unmounting from './Class-components/Life-cycle-method/Unmounting'
 // import Updating from './Class-components/Life-cycle-method/Updating'
 // import Mounting from './Class-components/Life-cycle-method/Mounting'
 // import Counter_homework from './Class-components/work'
@@ -56,7 +57,8 @@ export default class App extends Component {
       {/* <Counter_homework/> */}
       {/* <Mounting/> */}
       {/* <Updating/> */}
-      <Unmounting/>
+      {/* <Unmounting/> */}
+      <ButtonUnMount/>
       </>
     )
   }
