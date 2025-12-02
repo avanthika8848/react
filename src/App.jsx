@@ -4,10 +4,20 @@
 // import Home from './pages/Home'
 // import About from './pages/About'
 
-import { Axios } from "axios"
-import SimpleForm from "./Form/SimpleForm"
-import AxiosGet from "./axios/AxiosGet"
-import AxiosPost from "./axios/AxiosPost"
+import CartApp from "./Context/CardApp"
+
+// import { Axios } from "axios"
+// import YupForm from "./Form/Yup-react-hook-form/Yup-form";
+
+// import PortfolioApp from "./portfolio/PortfolioApp";
+// import Portfolio from "./Workk/Portfolio"
+// import { Route, Routes } from "react-router-dom"
+// import ProductPage from "./Desings/Dynamic-routing-example/productPage"
+// import ProductDetails from "./Desings/Dynamic-routing-example/ProductDetails"
+// import ProductPage from "./Desings/Dynamic-routing-example/productPage"
+// import SimpleForm from "./Form/SimpleForm"
+// import AxiosGet from "./axios/AxiosGet"
+// import AxiosPost from "./axios/AxiosPost"
 
 // import { ReakWorld } from "./react-keys/ReakWorld"
 
@@ -29,7 +39,7 @@ import AxiosPost from "./axios/AxiosPost"
 
 // const App = () => {
 
- function App() {
+function App() {
   return (
     <>
 
@@ -68,30 +78,61 @@ import AxiosPost from "./axios/AxiosPost"
 
       {/* <Navbar/> */}
       {/* <div className='container-app'> */}
-        {/* <Routes> */}
-          {/* <Route path='/'element={<Home />} /> */}
-          {/* <Route path='/about' element={<About/>} />  */}
+      {/* <Routes> */}
+      {/* <Route path='/'element={<Home />} /> */}
+      {/* <Route path='/about' element={<About/>} />  */}
 
-        {/* </Routes> */}
+      {/* </Routes> */}
 
-        
+
 
       {/* </div> */}
 
 
-  {/* -------react keys-------  */}
+      {/* -------react keys-------  */}
 
-{/* <ReakWorld/> */}
-   
-   {/* -----form----- */}
+      {/* <ReakWorld/> */}
 
-   {/* <SimpleForm/> */}
+      {/* -----form----- */}
 
-   {/* ------------------axios ------------*/}
-   {/* <AxiosGet/> */}
-   <AxiosPost/>
+      {/* <SimpleForm/> */}
 
-     
+      {/* ------------------axios ------------*/}
+      {/* <AxiosGet/> */}
+      {/* <AxiosPost/> */}
+
+      {/* ----------------dynamic routing---------- */}
+
+      {/* <ProductPage /> */}
+      {/* <Routes> */}
+        {/* <Route path="/" element={<ProductPage/>}/> */}
+        {/* <Route path="/products/:id" element ={<ProductDetails/>}/> */}
+
+      {/* </Routes> */}
+
+
+
+     {/* <Portfolio/> */}
+    {/* <PortfolioApp /> */}
+
+
+
+
+    {/* ----------------YUP----------------- */}
+    {/* <YupForm/> */}
+    <CartApp/>
+    
+    
+
+
+
+
+
+
+
+
+
+
     </>
   )
 }
@@ -145,8 +186,8 @@ export default App
 
 
 
-      // </>
-    // )
-  // }
+// </>
+// )
+// }
 // }
 
